@@ -1,0 +1,84 @@
+.main-container{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    
+    .background{
+        background: url("../assets/rev-slider-main-home-img-03.jpg");
+        background-size: cover;
+        height: 600px;
+        width: 1200px;
+        position: relative;
+
+        .info{
+            width: 400px;
+            margin: 150px 0 0 150px;
+
+            h1{
+                font-size: 50px;
+
+                span{
+                    color: $orange-color;
+                }
+            }
+
+            p{
+                color: $light-grey-color;
+                margin-top: 15px;
+            }
+
+            .button-info{
+                background-color: $white-color;
+            }
+
+            .button-buy{
+                background-color: $orange-color;
+                color: $white-color;
+                margin-left: 15px;
+            }
+
+            .button-info,
+            .button-buy{
+                width: 170px;
+                padding: 10px;
+                text-align: center;
+                line-height: 30px;
+
+                span{
+                    padding: 10px;
+                }
+
+                .border-black{
+                    border-right: 1px $black-color solid;
+                }
+
+                .border-white{
+                    border-right: 1px $white-color solid;
+                }
+
+                i{
+                    padding-left: 10px;
+                }
+            }
+        
+            .button{
+                display: flex;
+                margin-top: 25px;
+            }
+        }
+
+        .absolute{
+            position: absolute;
+            top: 265px;
+            font-size: 35px;
+        }
+
+        .left{
+            left: 25px;
+        }
+
+        .right{
+            right: 25px;
+        }
+    }
+}

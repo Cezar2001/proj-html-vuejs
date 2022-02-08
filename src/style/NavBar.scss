@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    line-height: 25px;
+
+    img{
+        height: 25px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+
+        li{
+            margin: 0 20px;
+            font-weight: bold;
+            position: relative;
+
+            .fa-long-arrow-alt-right{
+                display: none;
+            }
+
+            .fa-search{
+                transform: scaleX(-1);
+            }
+
+            &:hover{
+                color: $orange-color;
+
+                .fa-long-arrow-alt-right{
+                    display: inline-block;
+                    position: absolute;
+                    left: -20px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+}
