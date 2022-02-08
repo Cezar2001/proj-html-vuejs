@@ -1,5 +1,4 @@
 <template>
-<div class="main-container">
     <div class="background">
 
         <nav-bar />
@@ -26,7 +25,6 @@
         <i class="fas fa-long-arrow-alt-right absolute right"></i>
 
     </div>
-</div>
 </template>
 
 <script>
