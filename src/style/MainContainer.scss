@@ -1,0 +1,72 @@
+.container{
+    background: url("../assets/h1-img-09.jpg") no-repeat;
+    background-size: cover;
+    height: 670px;
+    position: relative;
+
+    .tabble{
+        padding: 75px 0 0 200px;
+    }
+
+    .events{
+        width: 450px;
+        padding: 20px;
+    }
+
+    .flex{
+        display: flex;
+        width: 450px;
+        padding: 20px;
+        border-top: 1px $border-grey-color solid;
+        
+        .date-box{
+            color: $white-color;
+            background-color: $orange-color;
+            width: 90px;
+            height: 50px;
+            padding: 5px;
+            margin-right: 15px;
+            text-align: center;
+        }
+
+        .journey{
+            
+            h3{
+                padding-bottom: 10px;
+            }
+
+            div{
+                padding: 5px 0;
+                color: $light-grey-color;
+
+                i{
+                    color: $orange-color;
+                    padding-right: 10px;
+                }
+            }
+
+            h5{
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .white-background{
+        background-color: $white-color;
+    }
+
+    .grey-background{
+        background-color: $clear-grey-color;
+    }
+
+    .up{
+        position: absolute;
+        right: 10px;
+        top: 375px;
+        padding: 10px 13px;
+        background-color: $white-color;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px $light-grey-color;
+        color: $orange-color;
+    }
+}
