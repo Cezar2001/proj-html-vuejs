@@ -4,6 +4,7 @@
     <jumbo-tron />
     <main-container />
     <news-box />
+    <testimonials-box />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderBox from './components/HeaderBox.vue'
 import JumboTron from './components/JumboTron.vue'
 import MainContainer from './components/MainContainer.vue'
 import NewsBox from './components/NewsBox.vue'
+import TestimonialsBox from './components/TestimonialsBox.vue'
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     JumboTron,
     MainContainer,
     NewsBox,
+    TestimonialsBox,
   }
 }
 </script>
