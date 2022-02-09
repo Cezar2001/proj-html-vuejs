@@ -7,11 +7,13 @@
     <testimonials-box />
     <video-container />
     <contact-us />
+    <footer-box />
   </div>
 </template>
 
 <script>
 import ContactUs from './components/ContactUs.vue'
+import FooterBox from './components/FooterBox.vue'
 import HeaderBox from './components/HeaderBox.vue'
 import JumboTron from './components/JumboTron.vue'
 import MainContainer from './components/MainContainer.vue'
@@ -29,6 +31,7 @@ export default {
     TestimonialsBox,
     VideoContainer,
     ContactUs,
+    FooterBox,
   }
 }
 </script>
