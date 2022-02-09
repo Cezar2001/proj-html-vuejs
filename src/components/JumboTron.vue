@@ -62,9 +62,7 @@
             </div>
         </div>
 
-        <div class="circle">
-            <!-- <img id="test" src="../assets/svg-4.svg" alt=""> -->
-        </div>
+        <div class="circle"></div>
 
         <div class="up two-up">
             <i class="fas fa-long-arrow-alt-up"></i>
@@ -81,4 +79,5 @@ export default {
 <style lang="scss" scoped>
 @import '../style/variables.scss';
 @import '../style/JumboTron.scss';
+
 </style>
