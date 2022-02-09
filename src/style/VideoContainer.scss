@@ -1,0 +1,44 @@
+.container{
+    background: url("../assets/h1-img-04.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    position: relative;
+
+    .fa-play{
+        color: $white-color;
+        font-size: 35px;
+        line-height: 600px;
+    }
+
+    .up{
+        position: absolute;
+        right: 10px;
+        top: 150px;
+        padding: 10px 13px;
+        background-color: $white-color;
+        border-radius: 50%;
+        color: $orange-color;
+    }
+
+    .box-img{
+        position: absolute;
+        top: -15px;
+        right: -10px;
+
+        .background-white{
+            background-color: $white-color;
+            padding: 5px;
+        }
+
+        .background-pink{
+            background-color: $pink-color;
+            padding: 5px;
+        }
+
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

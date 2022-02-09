@@ -5,6 +5,7 @@
     <main-container />
     <news-box />
     <testimonials-box />
+    <video-container />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import JumboTron from './components/JumboTron.vue'
 import MainContainer from './components/MainContainer.vue'
 import NewsBox from './components/NewsBox.vue'
 import TestimonialsBox from './components/TestimonialsBox.vue'
+import VideoContainer from './components/VideoContainer.vue'
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     MainContainer,
     NewsBox,
     TestimonialsBox,
+    VideoContainer,
   }
 }
 </script>
