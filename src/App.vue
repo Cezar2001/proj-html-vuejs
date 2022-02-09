@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box :nav="nav"/>
     <jumbo-tron />
     <main-container />
     <news-box />
@@ -32,6 +32,43 @@ export default {
     VideoContainer,
     ContactUs,
     FooterBox,
+  },
+  data() {
+    return{
+
+      nav: [
+        {
+          id: '1',
+          label: 'HOMES',
+          url: '/HOMES',
+        },
+        {
+          id: '2',
+          label: 'PAGES',
+          url: '/PAGES',
+        },
+        {
+          id: '3',
+          label: 'BLOG',
+          url: '/BLOG',
+        },
+        {
+          id: '4',
+          label: 'SHOP',
+          url: '/SHOP',
+        },
+        {
+          id: '5',
+          label: 'EVENTS',
+          url: '/EVENTS',
+        },
+        {
+          id: '6',
+          label: 'ELEEMENTS',
+          url: '/ELEMENTS',
+        },
+      ],
+    }
   }
 }
 </script>

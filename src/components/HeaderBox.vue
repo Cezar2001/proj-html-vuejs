@@ -1,7 +1,7 @@
 <template>
     <div class="background">
 
-        <nav-bar />
+        <nav-bar :option="nav"/>
         
         <div class="info">
             <h1>Our Team<span>.</span></h1>
@@ -30,9 +30,13 @@
 <script>
 import NavBar from './NavBar.vue';
 export default {
+    props: {
+        nav:Array
+    },
     components: {
         NavBar
     }
+
 }
 </script>
 
