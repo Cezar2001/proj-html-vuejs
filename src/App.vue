@@ -40,32 +40,26 @@ export default {
         {
           id: '1',
           label: 'HOMES',
-          url: '/HOMES',
         },
         {
           id: '2',
           label: 'PAGES',
-          url: '/PAGES',
         },
         {
           id: '3',
           label: 'BLOG',
-          url: '/BLOG',
         },
         {
           id: '4',
           label: 'SHOP',
-          url: '/SHOP',
         },
         {
           id: '5',
           label: 'EVENTS',
-          url: '/EVENTS',
         },
         {
           id: '6',
           label: 'ELEEMENTS',
-          url: '/ELEMENTS',
         },
       ],
     }
