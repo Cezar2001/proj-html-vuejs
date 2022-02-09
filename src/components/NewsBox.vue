@@ -108,7 +108,7 @@
                         <div class="img-six"></div>
                     </div>
 
-                    <div class="data"><i class="far fa-check-circle"></i>Business, Leading</div>
+                    <div class="data"><i class="fas fa-tag"></i>Business, Leading</div>
                     
                     <span><i class="far fa-clock"></i>May 5, 2019 &nbsp;</span>
                     

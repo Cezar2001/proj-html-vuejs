@@ -1,0 +1,125 @@
+.container{
+    background-color: $clear-grey-color;
+    height: 620px;
+    padding: 80px;
+    position: relative;
+
+    .field{
+        display: flex;
+        justify-content: center;
+
+        .earth{
+            background: url("../assets/h1-contact-rev-01.png") no-repeat;
+            background-size: contain;
+            height: 300px;
+            width: 500px;
+            position: relative;
+
+            .absolute{
+                position: absolute;
+            }
+
+            .add-one{
+                top: 100px;
+                left: 110px;
+            }
+
+            .add-two{
+                top: 60px;
+                left: 250px;
+            }
+
+            .add-three{
+                top: 190px;
+                left: 410px;
+            }
+
+            .add-text{
+                top: 125px;
+                left: 100px;
+            }
+
+            .text-added-first{
+                top: 150px;
+                left: 140px;
+            }
+
+            .text-added-second{
+                top: 180px;
+                left: 140px;
+            }
+        }
+
+        .contact{
+            height: 100px;
+            padding-left: 50px;
+
+            span:first-child{
+                color: $orange-color;
+            }
+
+            span{
+                color: $light-grey-color;
+            }
+
+            .line{
+                border-bottom: 2px $orange-color solid;
+                width: 50px;
+                margin-top: 10px;
+            }
+
+            textarea, 
+            input{
+                background: none;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            .input{
+                margin: 35px 50px 15px 0;
+            }
+
+            .button-buy{
+                width: 140px;
+                padding: 10px;
+                line-height: 30px;
+                margin-top: 20px;
+                text-align: center;
+                background-color: $orange-color;
+                color: $white-color;
+
+
+                .border-white{
+                    border-right: 1px $white-color solid;
+                    color: $white-color; 
+                    padding: 5px 15px; 
+                }
+
+                i{
+                    padding: 5px 15px;
+                }
+            }
+        }
+    }
+
+    .sponsor{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    .up{
+        position: absolute;
+        right: 10px;
+        bottom: 110px;
+        padding: 10px 13px;
+        background-color: $white-color;
+        border-radius: 50%;
+        color: $orange-color;
+    }
+
+    .up-two{
+        bottom: 600px;
+    }
+}

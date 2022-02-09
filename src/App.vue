@@ -6,10 +6,12 @@
     <news-box />
     <testimonials-box />
     <video-container />
+    <contact-us />
   </div>
 </template>
 
 <script>
+import ContactUs from './components/ContactUs.vue'
 import HeaderBox from './components/HeaderBox.vue'
 import JumboTron from './components/JumboTron.vue'
 import MainContainer from './components/MainContainer.vue'
@@ -26,6 +28,7 @@ export default {
     NewsBox,
     TestimonialsBox,
     VideoContainer,
+    ContactUs,
   }
 }
 </script>
