@@ -77,6 +77,8 @@
        align-items: flex-end;
 
        .button{
+           cursor: pointer;
+           z-index: 1;
            color: $white-color;
            background-color: $orange-color;
            width: 50px;
