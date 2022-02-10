@@ -88,7 +88,9 @@
         </div>
 
         <div class="up">
-            <i class="fas fa-long-arrow-alt-up"></i>
+            <a href="#top">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </a>
         </div>
     
     </div>

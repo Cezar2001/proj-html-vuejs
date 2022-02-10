@@ -47,7 +47,9 @@
             </div>
 
             <div class="up">
-                <i class="fas fa-long-arrow-alt-up"></i>
+                <a href="#top">
+                    <i class="fas fa-long-arrow-alt-up"></i>
+                </a>
             </div>
         </div>
 
@@ -126,7 +128,9 @@
             </div>
 
             <div class="up up-two">
-                <i class="fas fa-long-arrow-alt-up"></i>
+                <a href="#top">
+                    <i class="fas fa-long-arrow-alt-up"></i>
+                </a>
             </div>
         </div>
     </div>
