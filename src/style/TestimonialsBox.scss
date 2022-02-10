@@ -8,7 +8,8 @@
         color: $light-grey-color;
         position: absolute;
         font-size: 35px;
-        top: 250px
+        top: 250px;
+        cursor: pointer;
     }
 
     .left{
@@ -27,6 +28,7 @@
         background-color: $white-color;
         border-radius: 50%;
         color: $orange-color;
+        cursor: pointer;
     }
 
     h1{

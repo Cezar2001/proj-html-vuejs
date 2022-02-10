@@ -113,6 +113,7 @@
         .fa-long-arrow-alt-right,
         .fa-long-arrow-alt-left{
             font-size: 35px;
+            cursor: pointer;
         }
 
         .card{
@@ -173,6 +174,7 @@
                 position: absolute;
                 top: 365px;
                 left: 280px;
+                cursor: pointer;
 
                 i{
                     color: $white-color;
@@ -183,6 +185,7 @@
             i{
                 color: $orange-color;
                 padding: 0 5px;
+                cursor: pointer;
             }
 
             h3, h5{
@@ -201,8 +204,13 @@
     border-radius: 50%;
     box-shadow: 2px 2px 5px $light-grey-color;
     color: $orange-color;
+    cursor: pointer;
 }
 
 .up-two{
     top: 150px;
+}
+
+h5{
+    cursor: pointer;
 }

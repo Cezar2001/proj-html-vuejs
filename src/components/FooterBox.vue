@@ -3,13 +3,14 @@
     
     <div class="terms">
        
-        <div class="about">
+        <div class="about"
+        v-for="about in about" :key="about.id">
             
-            <h2>About</h2>
+            <h2>{{about.title}}</h2>
             
             <div class="line"></div>
             
-            <p>We created Everlead to effectively become the stepping stone towards meeting all your goals & achieving business success</p>
+            <p>{{about.text}}</p>
             
             <div>
                 <i class="fab fa-linkedin-in"></i>
@@ -19,9 +20,10 @@
         
         </div>
     
-        <div class="twitter">
+        <div class="twitter"
+        v-for="twitter in twitter" :key="twitter.id">
             
-            <h2>Twitter</h2>
+            <h2>{{twitter.title}}</h2>
             
             <div class="line"></div>
             
@@ -33,48 +35,50 @@
                 </div>
                 
                 <div>
-                    <p>@alisadadm Hi @alisadadm, can you please submit a ticket at hhtps://t.co/JLV61aXG7d and one of our support agent... https://t.co/yk57k1S9bS</p>
-                    <p>@HenrySefaBoakyl Check out our theme Giola which has all necessary elements to build a multi vendor marketplace. https://t.co/c9BIYxZBIL</p>
+                    <p>{{twitter.text}}</p>
+                    <p>{{twitter.secondaryText}}</p>
                 </div>
             
             </div>
         </div>
          
-        <div class="links">
+        <div class="links"
+        v-for="link in links" :key="link.id">
 
-            <h2>Important links</h2>
+            <h2>{{link.title}}</h2>
             
             <div class="line"></div>
 
             <ul>
-                <li>About me</li>
-                <li>About us</li>
-                <li>Language packs</li>
-                <li>Become a coach</li>
-                <li>Monthly events</li>
+                <li>{{link.me}}</li>
+                <li>{{link.us}}</li>
+                <li>{{link.language}}</li>
+                <li>{{link.coach}}</li>
+                <li>{{link.events}}</li>
             </ul>
 
         </div>
 
-        <div class="contact">
+        <div class="contact"
+        v-for="contact in contact" :key="contact.id">
 
-            <h2>Contact me</h2>
+            <h2>{{contact.title}}</h2>
             
             <div class="line"></div>
 
             <div class="info">
                 <i class="fas fa-map-marker-alt"></i>
-                <span>457 BigBlue Street, NY 10013</span>
+                <span>{{contact.position}}</span>
             </div>
 
             <div class="info">
                 <i class="fas fa-phone"></i>
-                <span>(315) 5512-2579</span>
+                <span>{{contact.phone}}</span>
             </div>
 
             <div class="info">
                 <i class="far fa-envelope"></i>
-                <span>everlead@mikado.com</span>
+                <span>{{contact.mail}}</span>
             </div>
 
             <div class="info">
@@ -83,18 +87,27 @@
 
         </div>
 
+        <div class="up">
+            <i class="fas fa-long-arrow-alt-up"></i>
+        </div>
+    
     </div>
 
     <div class="footer-bar">
         <span>Copyright Everlead © MikadoThemes</span>
     </div>
-    
+
 </div>
 </template>
 
 <script>
 export default {
-    
+    props: {
+        about: Array,
+        twitter: Array,
+        links: Array,
+        contact: Array,
+    }
 }
 </script>
 

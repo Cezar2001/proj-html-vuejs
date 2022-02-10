@@ -9,6 +9,7 @@
         color: $white-color;
         font-size: 35px;
         line-height: 600px;
+        cursor: pointer;
     }
 
     .up{
@@ -19,6 +20,7 @@
         background-color: $white-color;
         border-radius: 50%;
         color: $orange-color;
+        cursor: pointer;
     }
 
     .box-img{
@@ -39,6 +41,7 @@
         img{
             width: 35px;
             height: 35px;
+            cursor: pointer;
         }
     }
 }

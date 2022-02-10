@@ -8,6 +8,7 @@
         padding-top: 120px;
         display: flex;
         justify-content: space-around;
+        position: relative;
             
             h2{
                 color: $white-color;
@@ -49,7 +50,7 @@
                 i{
                     color: $orange-color;
                     padding: 0 10px;
-                    margin-bottom: 85px;
+                    margin-bottom: 58px;
                 }
 
                 p{
@@ -97,6 +98,8 @@
                 background: none;
                 padding: 5px;
                 border-bottom: 2px $light-grey-color solid;
+                color: $white-color;
+                cursor: pointer;
             }
 
             .subscribe{
@@ -106,6 +109,17 @@
                 font-weight: bold;
             }
         }
+    }
+
+    .up{
+        position: absolute;
+        right: 10px;
+        bottom: -15px;
+        padding: 10px 13px;
+        background-color: $white-color;
+        border-radius: 50%;
+        color: $orange-color;
+        cursor: pointer;
     }
 
     .footer-bar{

@@ -47,6 +47,7 @@
 
             h5{
                 padding-top: 10px;
+                cursor: pointer;
             }
         }
     }
@@ -68,5 +69,6 @@
         border-radius: 50%;
         box-shadow: 2px 2px 5px $light-grey-color;
         color: $orange-color;
+        cursor: pointer;
     }
 }

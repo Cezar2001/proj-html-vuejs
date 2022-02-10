@@ -17,6 +17,7 @@
 
             .absolute{
                 position: absolute;
+                cursor: pointer;
             }
 
             .add-one{
@@ -74,13 +75,14 @@
                 border-top: none;
                 border-right: none;
                 border-left: none;
+                cursor: pointer;
             }
 
             .input{
                 margin: 35px 50px 15px 0;
             }
 
-            .button-buy{
+            .button-send{
                 width: 140px;
                 padding: 10px;
                 line-height: 30px;
@@ -88,6 +90,7 @@
                 text-align: center;
                 background-color: $orange-color;
                 color: $white-color;
+                cursor: pointer;
 
 
                 .border-white{
@@ -117,6 +120,7 @@
         background-color: $white-color;
         border-radius: 50%;
         color: $orange-color;
+        cursor: pointer;
     }
 
     .up-two{

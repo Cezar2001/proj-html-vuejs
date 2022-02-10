@@ -24,7 +24,7 @@
                 <br>
                 <textarea name="comment" id="" cols="50" rows="5" placeholder="Write a message..."></textarea>
             
-                <div class="button-buy">
+                <div class="button-send">
                     <span class="border-white">SEND</span>
                     <i class="fas fa-long-arrow-alt-right"></i> 
                 </div>

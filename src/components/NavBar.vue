@@ -21,7 +21,7 @@
 <script>
 export default {
     props: {
-        option: Object
+        option: Array
     }
 }
 </script>
