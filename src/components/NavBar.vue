@@ -1,8 +1,10 @@
 <template>
     <div class="container">
+        
         <div>
             <img src="@/assets/logo-img-01.png" alt="">
         </div>
+
         <div>
             <ul>
                 <li v-for="link in option" :key="link.id">
@@ -12,6 +14,7 @@
                 <li><i class="fas fa-list"></i></li>
             </ul>
         </div>
+    
     </div>
 </template>
 

@@ -1,0 +1,118 @@
+.container{
+    background-color: $dark-grey-color;
+    height: 500px;
+    font-size: 13px;
+    
+    .terms{
+        height: 470px;
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-around;
+            
+            h2{
+                color: $white-color;
+            }
+
+            .line{
+                border-bottom: 1px $orange-color solid;
+                width: 50px;
+                padding: 5px 0;
+            }
+
+        .about{
+            width: 270px;
+
+            p{
+                color: $light-grey-color;
+                padding: 15px 0;
+            }
+ 
+            i{
+                padding: 10px;
+                background-color: $white-color;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            .fa-facebook-f{
+                padding: 10px 13px;
+            } 
+        }
+
+        .twitter{
+            width: 270px;
+
+            .twitter-flex{
+                display: flex;
+                padding-top: 15px;
+
+                i{
+                    color: $orange-color;
+                    padding: 0 10px;
+                    margin-bottom: 85px;
+                }
+
+                p{
+                    color: $light-grey-color;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .links{
+            width: 200px;
+
+            ul{
+                list-style: none;
+                color: $light-grey-color;
+                padding: 10px 0;
+
+                li{
+                    padding: 5px 0;
+                }
+            }
+        }
+
+        .contact{
+            width: 270px;
+            color: $light-grey-color;
+
+            .info{
+                padding-top: 15px;
+            }
+
+            i{
+                color: $orange-color;
+                padding: 0 5px;
+            }
+
+            .fa-phone{
+                transform: scaleX(-1);
+            }
+
+            input{
+                border-right: none;
+                border-left: none;
+                border-top: none;
+                background: none;
+                padding: 5px;
+                border-bottom: 2px $light-grey-color solid;
+            }
+
+            .subscribe{
+                color: $white-color;
+                padding: 5px;
+                border-bottom: 2px $light-grey-color solid;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .footer-bar{
+        color: $white-color;
+        background-color: $orange-color;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    }
+}
